@@ -7,15 +7,21 @@
     padding: 10px;
 }
 
-.messages {
-    padding: 10px;
-}
-
 .dialog {
 
 }
-.dialog.active {
+
+.dialog a {
+    color: white;
+    text-decoration: none;
+}
+
+.dialog a.active {
     color: yellow;
+}
+
+.messages {
+    padding: 10px;
 }
 
 .message {

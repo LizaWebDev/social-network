@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from "react-router-dom";
+import {HashRouter, Route} from "react-router-dom";
 import './App.css'
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
@@ -12,7 +12,7 @@ import Settings from "./components/Settings/Settings";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className="app-wrapper">
                 <Header/>
                 <Navbar/>
@@ -24,7 +24,7 @@ function App() {
                     <Route path="/settings" component={Settings}/>
                 </div>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
